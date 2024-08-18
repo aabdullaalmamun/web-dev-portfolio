@@ -46,3 +46,38 @@
               font-size: 20px;
   
           }
+          /* header */
+          .header{
+            background-image: url(./portfolio-resources-main/images/developer.png),url(./portfolio-resources-main/images/header_bg.png);
+            background-repeat: no-repeat;
+            background-position: top left, bottom right;
+          }
+
+          /* banner-styles */
+          .banner{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 35px 0 230px;
+          }
+          .banner-content{
+            max-width: 585px;
+          }
+          .banner-greetings{
+            font-size: 40px;
+            font-weight: 600;
+          }
+
+          .banner-title{
+            font-size: 85px;
+            font-weight: bold;
+            color: #181818;
+          }
+
+          .banner-description{
+          color: #757575;
+          font-size: 18px;
+          }
+
+          .banner-picture{
+            width: 580px;
+          }
